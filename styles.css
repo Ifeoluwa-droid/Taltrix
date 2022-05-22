@@ -1041,7 +1041,7 @@ footer hr {
     display: none;
   }
 
-  .why-patronize *, .why-patronize p{
+  .why-patronize *, .why-patronize p {
     text-align: center;
     width: 100%;
   }
@@ -1228,6 +1228,10 @@ footer hr {
     flex-direction: column;
   }
 
+  .why-work-with-us div.flex-row {
+    flex-direction: column;
+  }
+
   .why-patronize h1 {
     font-size: 2rem;
   }
@@ -1261,8 +1265,12 @@ footer hr {
     margin-bottom: 4rem;
   }
 
-  .why-we-exist h1, .underline-text span  {
-    font-size: var(--fs-20);
+  .underlined-text div:last-child img {
+    width: 100px;
+  }
+
+  .why-we-exist .flex-row h1 {
+    font-size: var(--fs-28);
   }
 
   .why-we-exist p {
@@ -1277,8 +1285,12 @@ footer hr {
     font-size: var(--fs-20)
   }
 
+  .why-patronize {
+    padding: 2rem;
+  }
+
   .why-patronize h1 {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .why-work-with-us h1 {
