@@ -53,19 +53,19 @@
   --l-height-15: 150%;
 
   /* padding */
-  --p-156: 9.75rem;
-  --p-80: 5rem;
-  --p-104: 6.5rem;
-  --p-146: 9.125rem;
-  --p-96: 6rem;
-  --p-56: 3.5rem;
-  --p-32: 2rem;
-  --p-24: 1.5rem;
-  --p-172: 10.75rem;
   --p-20: 1.25rem;
+  --p-24: 1.5rem;
+  --p-32: 2rem;
   --p-33: 2.0625rem;
+  --p-56: 3.5rem;
+  --p-80: 5rem;
+  --p-96: 6rem;
+  --p-104: 6.5rem;
   --p-133: 8.3125rem;
+  --p-146: 9.125rem;
+  --p-156: 9.75rem;
   --p-160: 10rem;
+  --p-172: 10.75rem;
 
   /* margins */
   --m-24: 1.5rem;
@@ -377,12 +377,20 @@ body {
 }
 
 /* Gaps */
-.gap-18 {
-  gap: 1.125rem;
-}
-
 .gap-8 {
   gap: .5rem;
+}
+
+.gap-10 {
+  gap: .625rem;
+}
+
+.gap-24 {
+  gap: 1.5rem;
+}
+
+.gap-18 {
+  gap: 1.125rem;
 }
 
 .gap-32 {
@@ -454,7 +462,7 @@ header {
   outline: none;
   border-radius: 1.25rem;
   line-height: 1.25rem;
-  letter-spacing: 0.10000000149011612px;
+  letter-spacing: 0.1px;
   display: block;
   margin: 0 auto;
 }
@@ -653,14 +661,6 @@ main {
   padding: 6.25rem;
 }
 
-.gap-10 {
-  gap: .625rem;
-}
-
-.gap-24 {
-  gap: 1.5rem;
-}
-
 .why-work-with-us {
   padding: var(--p-172) var(--p-33) var(--p-33) var(--p-33);
   background: var(--clr-blue-accent);
@@ -705,10 +705,6 @@ main {
 .service-offering div.bg-light-blue-accent {
   padding: 1rem 1rem;
   margin-top: 1rem;
-}
-
-.services-summary div {
-  padding-left:
 }
 
 .services-summary div:first-child {
@@ -780,9 +776,7 @@ footer hr {
   margin: 1.5rem auto;
 }
 
-
 /* Media Queries */
-
 @media (max-width: 1344px) {
   .work-row {
     flex-direction: column;
@@ -1254,5 +1248,44 @@ footer hr {
 @media (max-width: 546px) {
   .why-we-exist {
     padding: 3.125rem 1rem;
+  }
+}
+
+@media (max-width: 545px) {
+  .heading {
+    font-size: 2.25rem;
+    width: 95%;
+  }
+
+  .brand-description {
+    margin-bottom: 4rem;
+  }
+
+  .why-we-exist h1, .underline-text span  {
+    font-size: var(--fs-20);
+  }
+
+  .why-we-exist p {
+    font-size: var(--fs-14);
+  }
+
+  .work-description {
+    padding: 1rem .5rem;
+  }
+
+  .work-description-heading {
+    font-size: var(--fs-20)
+  }
+
+  .why-patronize h1 {
+    font-size: 1rem;
+  }
+
+  .why-work-with-us h1 {
+    font-size: 1.125rem;
+  }
+
+  #section-3 {
+    padding: var(--p-32) var(--p-24)
   }
 }
