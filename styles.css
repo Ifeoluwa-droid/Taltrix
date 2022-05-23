@@ -1314,6 +1314,10 @@ footer hr {
     font-size: 1.5rem;
   }
 
+  .why-patronize .flex-row.gap-10 div:first-child h1 {
+    height: 3.125rem;
+  }
+
   .why-work-with-us h1 {
     font-size: 1.125rem;
   }
