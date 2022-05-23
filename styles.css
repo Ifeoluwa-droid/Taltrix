@@ -406,6 +406,10 @@ header {
   padding: 1.3125rem  var(--p-156);
 }
 
+main {
+  background: hsl(0, 0%, 97%);
+}
+
 .heading {
   width: 50%;
   line-height: 4.5rem;
@@ -584,6 +588,8 @@ main {
 }
 
 .roles-descr {
+  box-shadow: .1px .1px 12px var(--clr-secondary-text);
+  margin-bottom: 3rem;
   padding: 2rem 1.5rem;
   height: 45rem;
 }
@@ -742,6 +748,7 @@ main {
 }
 
 #section-3 {
+  background: var(--clr-white);
   padding: 8.375rem;
   text-align: center;
 }
