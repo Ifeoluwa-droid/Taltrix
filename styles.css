@@ -90,6 +90,10 @@
 }
 
 /* body Setup */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--clr-bg-white);
   color: var(--clr-body-text);
@@ -461,6 +465,7 @@ main {
 }
 
 .learn-more {
+  text-decoration: none;
   padding: .625rem 1.5rem;
   border: none;
   outline: none;
@@ -468,6 +473,7 @@ main {
   line-height: 1.25rem;
   letter-spacing: 0.1px;
   display: block;
+  width: max-content;
   margin: 0 auto;
 }
 
