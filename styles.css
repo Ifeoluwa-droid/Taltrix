@@ -647,6 +647,15 @@ main {
   width: 70%;
 }
 
+.why-patronize .underlined-text {
+  gap: 0;
+}
+
+.why-patronize .underlined-text div:last-child {
+  display: flex;
+  align-items: flex-start;
+}
+
 .baloon-holder {
   position: absolute;
   bottom: 0;
@@ -1041,6 +1050,10 @@ footer hr {
     display: none;
   }
 
+  .why-patronize .underlined-text div:last-child {
+    width: 10.5rem;
+  }
+
   .why-patronize *, .why-patronize p {
     text-align: center;
     width: 100%;
@@ -1118,6 +1131,14 @@ footer hr {
     align-self: center;
     width: 100%;
     font-size: 6vw;
+  }
+
+  .why-patronize .underlined-text div:last-child {
+    width: 22vw;
+  }
+
+  .why-patronize .flex-row.gap-10 div:first-child h1 {
+    height: 10vw;
   }
 }
 
