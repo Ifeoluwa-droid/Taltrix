@@ -783,9 +783,15 @@ footer .flex-row {
 footer h3 {
   margin-bottom: 1.125rem;
 }
+
 footer p, footer a {
   display: flex;
   align-items: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
 }
 
 footer img {
